@@ -1,4 +1,4 @@
-//Frequency Counter pattern
+//Frequency Counter pattern:
 
 // edge case length
 // 2x empty obj counter

@@ -1,10 +1,11 @@
-function countUniqueValues(sortedArr){
-    
+
+// steps:
     //multiple pointers
     // i
     //[1, 2, 2, 3, 3, 3, 4, 4,, 5, 6]
     //    j
 
+function countUniqueValues(sortedArr){
     if (sortedArr.length === 0) return 0;
     let i = 0
     for (let j = 1; j < sortedArr.length; j++){
@@ -15,3 +16,6 @@ function countUniqueValues(sortedArr){
     }
   return i + 1
 }
+
+// time: O(n)
+// sapce: O(1)
