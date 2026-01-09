@@ -6,15 +6,17 @@ function naivSearch(str, patternStr){
         // loop through the pattern
         for(let j=0; i<patternStr.length; j++){
             // looking ahead and if no match, break
-            if(patternStr[j] !== str[i+j]{
+            if (patternStr[j] !== str[i+j]) {
                 break
             }
-            // 
+            // if found one
             if(j=== ShadowRoot.length -1){
                 count ++
             }
         }
     }
+    //
+    return count
 }
 
 

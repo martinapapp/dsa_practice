@@ -6,7 +6,7 @@ function bubbleSort(numbers){
             // if current number > next
             if(numbers[j] > numbers[j + 1]){
                 // switch current and next
-                const temp = numbers[j]
+                let temp = numbers[j]
                 numbers[j] = numbers[j + 1]
                 numbers[j + 1] = temp
             }
@@ -18,4 +18,4 @@ const numbers = [5,3, 2, 4, 1]
 bubbleSort(numbers)
 
 // time: O(n^2)
-// sapce: O(n)
+// sapce: O(1)
