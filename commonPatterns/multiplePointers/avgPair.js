@@ -1,3 +1,6 @@
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+
 function avgPair(arr, num) {
     let start = 0 // left pointer starts at the beginning
     let end = arr.length - 1 // right pointer starts at the end
