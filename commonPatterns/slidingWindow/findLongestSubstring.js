@@ -24,7 +24,7 @@ function findLongestSubstring(str) {
 console.log(findLongestSubstring("")) // empty string has no substring
 console.log(findLongestSubstring("rithmschool")) // "rithmsc"
 console.log(findLongestSubstring("thisisawesome")) // "awesom"
-console.log(findLongestSubstring("thecatinthehat")) // "hecatin"
+console.log(findLongestSubstring("thecatinthehat")) // "thecatin"
 console.log(findLongestSubstring("bbbbbb")) // only one unique character at a time
-console.log(findLongestSubstring("longestsubstring")) //  "ubstring"
+console.log(findLongestSubstring("longestsubstring")) //  "substring"
 console.log(findLongestSubstring("thisishowwedoit")) // "wedoit"
