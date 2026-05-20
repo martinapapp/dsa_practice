@@ -5,7 +5,7 @@ function minSubarrayLen(nums, sum) {
     let total = 0 // stores the current window sum
     let start = 0 // left side of the window
     let end = 0 // right side of the window
-    let minLen = Infinity // stores the smallest valid window length found so far
+    let minLen = Infinity //stores the smallest valid window length found so far
 
     while (start < nums.length) { // keep checking while start is inside the array
         if (total < sum && end < nums.length) { // window sum is too small, expand the window
